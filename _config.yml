@@ -9,3 +9,16 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+podcast_url: "http://127.0.0.1:4000"
+podcast_album_art: /images/mypodcast.jpg
+podcast_title: My Example Podcast
+podcast_owner: Owner Name
+podcast_email: owner@example.com
+podcast_category: Technology             # For iTunes categories see:
+podcast_subcategory_one: Podcasting      # https://help.apple.com/itc/podcasts_connect/#/itc9267a2f12
+podcast_subcategory_two: Software How-To
+podcast_explicit: "no"
+podcast_author: Author Name
+podcast_description: This is an example of a site with podcast feeds
+podcast_summary: This is an example of a site with podcast feeds
+podcast_subtitle: This is an example of a site with podcast feeds
