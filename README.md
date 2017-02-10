@@ -3,6 +3,8 @@
 This is an example of how to make podcast RSS feeds with Jekyll, including the
 information needed to submit it to iTunes.
 
+The example site is live at https://andybalaam.github.io/Jekyll-Podcast-Feed/
+
 ## Global config
 
 As can be seen in [_config.yml](_config.yml), you need some extra information
