@@ -64,8 +64,8 @@ http://127.0.0.1:4000/Jekyll-Podcast-Feed/podcast-mp3.xml
 
 ## podcast_guid
 
-You can also provide `podcast_guid` for a post to preserve permalinks from a
-previous site:
+You can also provide `podcast_guid` for in a post's YAML header to preserve
+permalinks from a previous site:
 
     podcast_guid: ?p=866
 
