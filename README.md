@@ -1,18 +1,12 @@
 # Jekyll Podcast Feed
 
-You can use this feed to host a podcast at iTunes. This setup requires a number of settings in both the main site YAML and each posts YAML. I recommend setting up your server to rewrite index.xml files as a directory index. This makes it possible to use this: http://example.com/feed/podcast
+This is an example of how to make podcast RSS feeds with Jekyll, including the
+information needed to submit it to iTunes.
 
-To see an example of this feed in action, here are a few links:
+## Global config
 
-My Jekyll generated site: [http://joebuhlig.com](http://joebuhlig.com)
-
-Podcast episode page: [http://joebuhlig.com/whaddyaknowjoe/](http://joebuhlig.com/whaddyaknowjoe/)
-
-Podcast feed: [http://joebuhlig.com/feed/podcast](http://joebuhlig.com/feed/podcast)
-
-# Example Site Configuration
-
-This setup requires a number of settings in your _config.yml file. To see how each of these are used, you can look through the index.xml file of this repo. 
+As can be seen in [_config.yaml](_config.yaml), you need some extra information
+to describe your podcast, like this:
 
     podcast_url: http://www.joebuhlig.com/whaddyaknowjoe
     podcast_album_art: /assets/base/Whaddya-Know-Joe-Album-Art.png
@@ -24,25 +18,50 @@ This setup requires a number of settings in your _config.yml file. To see how ea
     podcast_subcategory_two: Gadgets
     podcast_explicit: "no"
     podcast_author: Joe Buhlig
-    podcast_description: Productivity stories from the trenches. What works and what I'll never do again. Hosted by Joe Buhlig.
-    podcast_summary: Joe Buhlig walks you through real life story and then breaks down the productivity tools and techniques used. It's a great way to learn how to implement the tips and tricks that you see across the web. Productivity stories from the trenches. What works and what to never try.
-    podcast_subtitle: Productivity stories from the trenches. What works and what I'll never do again. Hosted by Joe Buhlig.
+    podcast_description: Productivity stories from the trenches...
+    podcast_summary: Joe Buhlig walks you through real life story...
+    podcast_subtitle: Productivity stories from the trenches...
 
-# Example Post YAML
+## Individual posts
 
-You can choose to include a specific GUID on a podcast episode by including the "podcast_guid" setting for the post. This is helpful when migrating from a different hosting service. This is what allowed me to move mine from WordPress to Jekyll. It's not required and I usually leave it off.
+Posts (e.g. [_posts/2017-02-08-my-first-podcast.markdown](_posts/2017-02-08-my-first-podcast.markdown))
+need some extra config at the top too:
 
-    title:  "Episode Title Goes Here"
-    date:   2015-10-20
     categories: podcast
-    tags:
-    - tagone
-    - tagtwo
-    - tagthree
-    permalink: /35/
-    image: /assets/posts/Awesome-Podcast-Art.jpg
     podcast_link: http://traffic.libsyn.com/podcast/filename.mp3
     podcast_file_size: 13.7 MB
     podcast_duration: "14:02"
     podcast_length: 13654375
+
+## Multiple feeds
+
+The default setup is to generate two feeds - one for Ogg Vorbis and one for
+MP3.  If you want to remove one, simple delete e.g.
+[podcast-mp3.xml](podcast-mp3.xml).
+
+To add other file types, copy [podcast-mp3.xml](podcast-mp3.xml) and modify it
+to specify the correct file extension.
+
+## Testing locally
+
+If you have Jekyll set up as usual, this should work:
+
+    git clone git@github.com:andybalaam/Jekyll-Podcast-Feed.git
+    cd Jekyll-Podcast-Feed
+    jekyll serve
+
+Now you should be able to see the example site at http://127.0.0.1:4000/ and
+the example podcast feeds at http://127.0.0.1:4000/podcast-ogg.xml and
+http://127.0.0.1:4000/podcast-mp3.xml
+
+## podcast_guid
+
+You can also provide `podcast_guid` for a post to preserve permalinks from a
+previous site:
+
     podcast_guid: ?p=866
+
+## Examples
+
+* [http://joebuhlig.com/whaddyaknowjoe/](http://joebuhlig.com/whaddyaknowjoe/)
+* [http://joebuhlig.com/feed/podcast](http://joebuhlig.com/feed/podcast)
