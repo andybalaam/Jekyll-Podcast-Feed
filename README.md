@@ -31,9 +31,8 @@ need some extra config at the top too:
 
     categories: podcast
     podcast_link: http://traffic.libsyn.com/podcast/filename.mp3
-    podcast_file_size: 13.7 MB
-    podcast_duration: "14:02"
-    podcast_length: 13654375
+    podcast_duration: "14:02"  # minutes:seconds
+    podcast_length: 13654375   # File size in bytes
 
 If you include this code in a post:
 
