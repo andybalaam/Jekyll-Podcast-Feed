@@ -33,6 +33,12 @@ need some extra config at the top too:
     podcast_duration: "14:02"
     podcast_length: 13654375
 
+If you include this code in a post:
+
+    {% include audio.html %}
+
+An audio player will appear in the blog post.
+
 ## Multiple feeds
 
 The default setup is to generate two feeds - one for Ogg Vorbis and one for
