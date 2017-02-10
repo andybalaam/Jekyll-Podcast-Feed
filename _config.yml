@@ -1,10 +1,7 @@
 title: Example podcast site
-email: your-email@domain.com
 description: This is an example of a site with podcast feeds
 baseurl: ""
 url: ""
-twitter_username: andybalaam
-github_username:  andybalaam
 markdown: kramdown
 theme: minima
 gems:

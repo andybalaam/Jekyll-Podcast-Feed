@@ -7,8 +7,8 @@ podcast_link: /audio/free-software-song
 podcast_duration: 01:48"
 podcast_length: {"ogg": 326823, "mp3": 108621}
 ---
-This post is in the podcast category so it will be included in your
-podcast RSS feeds.
+This post is in the podcast category so it will be included in your podcast RSS
+feeds.  (You can see the feed subscribe links at the bottom of the page.)
 
 It also includes an audio tag so people visiting the blog can play it directly:
 
