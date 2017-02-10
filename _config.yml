@@ -1,7 +1,7 @@
 destination: docs
 title: Example podcast site
 description: This is an example of a site with podcast feeds
-baseurl: ""
+baseurl: "/Jekyll-Podcast-Feed"
 url: ""
 markdown: kramdown
 theme: minima

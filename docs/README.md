@@ -56,9 +56,10 @@ If you have Jekyll set up as usual, this should work:
     cd Jekyll-Podcast-Feed
     jekyll serve
 
-Now you should be able to see the example site at http://127.0.0.1:4000/ and
-the example podcast feeds at http://127.0.0.1:4000/podcast-ogg.xml and
-http://127.0.0.1:4000/podcast-mp3.xml
+Now you should be able to see the example site at
+http://127.0.0.1:4000/Jekyll-Podcast-Feed/ and the example podcast feeds at
+http://127.0.0.1:4000/Jekyll-Podcast-Feed/podcast-ogg.xml and
+http://127.0.0.1:4000/Jekyll-Podcast-Feed/podcast-mp3.xml
 
 ## podcast_guid
 
