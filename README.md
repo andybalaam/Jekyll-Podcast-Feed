@@ -69,5 +69,8 @@ previous site:
 
 ## Examples
 
-* [http://joebuhlig.com/whaddyaknowjoe/](http://joebuhlig.com/whaddyaknowjoe/)
-* [http://joebuhlig.com/feed/podcast](http://joebuhlig.com/feed/podcast)
+* http://joebuhlig.com/whaddyaknowjoe/
+    * http://joebuhlig.com/feed/podcast
+* http://www.artificialworlds.net/imagine/
+    * http://www.artificialworlds.net/imagine/podcast-ogg.xml
+    * http://www.artificialworlds.net/imagine/podcast-mp3.xml
