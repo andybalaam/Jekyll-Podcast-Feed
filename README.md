@@ -5,7 +5,7 @@ information needed to submit it to iTunes.
 
 ## Global config
 
-As can be seen in [_config.yaml](_config.yaml), you need some extra information
+As can be seen in [_config.yml](_config.yml), you need some extra information
 to describe your podcast, like this:
 
     podcast_url: http://www.joebuhlig.com/whaddyaknowjoe
