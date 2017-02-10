@@ -11,10 +11,10 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
  
 <channel>
 <title>My Example Podcast</title>
-<atom:link href="/feed/podcast" rel="self" type="application/rss+xml" />
-<link></link>
+<atom:link href="http://localhost:4000/feed/podcast" rel="self" type="application/rss+xml" />
+<link>http://localhost:4000</link>
 <description>This is an example of a site with podcast feeds</description>
-<lastBuildDate>Fri, 10 Feb 2017 03:29:14 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Feb 2017 03:35:10 +0000</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -22,7 +22,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:summary>This is an example of a site with podcast feeds</itunes:summary>
 <itunes:author>Author Name</itunes:author>
 <itunes:explicit>no</itunes:explicit>
-<itunes:image href="/images/mypodcast.jpg" />
+<itunes:image href="http://localhost:4000/images/mypodcast.jpg" />
 <itunes:owner>
 <itunes:name>Owner Name</itunes:name>
 <itunes:email>owner@example.com</itunes:email>
@@ -31,8 +31,8 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:subtitle>This is an example of a site with podcast feeds</itunes:subtitle>
 <image>
 <title>My Example Podcast</title>
-<url>/images/mypodcast.jpg</url>
-<link></link>
+<url>http://localhost:4000/images/mypodcast.jpg</url>
+<link>http://localhost:4000</link>
 </image>
 <itunes:category text="Technology">
 <itunes:category text="Podcasting" />
@@ -41,15 +41,15 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 
   <item>
     <title>Second Podcast</title>
-    <link>/podcast/2017/02/10/second-podcast.html</link>
-    <comments>/podcast/2017/02/10/second-podcast.html#comments</comments>
+    <link>http://localhost:4000/podcast/2017/02/10/second-podcast.html</link>
+    <comments>http://localhost:4000/podcast/2017/02/10/second-podcast.html#comments</comments>
     <pubDate>Fri, 10 Feb 2017 02:07:00 +0000</pubDate>
     <dc:creator><![CDATA[]]></dc:creator>
 
     <category><![CDATA[podcast]]></category>
 
 
-    <guid isPermaLink="true">/podcast/2017/02/10/second-podcast.html</guid>
+    <guid isPermaLink="true">http://localhost:4000/podcast/2017/02/10/second-podcast.html</guid>
     <description>
         <![CDATA[This post is in the podcast category so it will be included in your podcast RSS
 feeds.  (You can see the feed subscribe links at the bottom of the page.)
@@ -63,8 +63,8 @@ feeds.  (You can see the feed subscribe links at the bottom of the page.)</p>
 <p>It also includes an audio tag so people visiting the blog can play it directly:</p>
 
 <audio preload="none" style="width: 100%;" controls="controls">
-    <source type="audio/ogg" src="/audio/free-software-song.ogg" />
-    <source type="audio/mp3" src="/audio/free-software-song.mp3" />
+    <source type="audio/ogg" src="https://andybalaam.github.io/Jekyll-Podcast-Feed//audio/free-software-song.ogg" />
+    <source type="audio/mp3" src="https://andybalaam.github.io/Jekyll-Podcast-Feed//audio/free-software-song.mp3" />
     <a href=""></a>
 </audio>
 
@@ -95,8 +95,8 @@ feeds.  (You can see the feed subscribe links at the bottom of the page.)</p>
 <p>It also includes an audio tag so people visiting the blog can play it directly:</p>
 
 <audio preload="none" style="width: 100%;" controls="controls">
-    <source type="audio/ogg" src="/audio/free-software-song.ogg" />
-    <source type="audio/mp3" src="/audio/free-software-song.mp3" />
+    <source type="audio/ogg" src="https://andybalaam.github.io/Jekyll-Podcast-Feed//audio/free-software-song.ogg" />
+    <source type="audio/mp3" src="https://andybalaam.github.io/Jekyll-Podcast-Feed//audio/free-software-song.mp3" />
     <a href=""></a>
 </audio>
 
@@ -115,22 +115,22 @@ on the type of feed (ogg or mp3).</p>
 podcast metadata.</p>
 ]]></itunes:summary>
     <itunes:author>Author Name</itunes:author>
-    <itunes:image href="/images/mypodcast.jpg" />
+    <itunes:image href="http://localhost:4000/images/mypodcast.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:duration>01:48"</itunes:duration>
   </item>
 
   <item>
     <title>My First Podcast</title>
-    <link>/podcast/2017/02/08/my-first-podcast.html</link>
-    <comments>/podcast/2017/02/08/my-first-podcast.html#comments</comments>
+    <link>http://localhost:4000/podcast/2017/02/08/my-first-podcast.html</link>
+    <comments>http://localhost:4000/podcast/2017/02/08/my-first-podcast.html#comments</comments>
     <pubDate>Wed, 08 Feb 2017 02:07:00 +0000</pubDate>
     <dc:creator><![CDATA[]]></dc:creator>
 
     <category><![CDATA[podcast]]></category>
 
 
-    <guid isPermaLink="true">/podcast/2017/02/08/my-first-podcast.html</guid>
+    <guid isPermaLink="true">http://localhost:4000/podcast/2017/02/08/my-first-podcast.html</guid>
     <description>
         <![CDATA[This post is in the podcast category so it will be included in your podcast RSS
 feeds.  (You can see the feed subscribe links at the bottom of the page.)
@@ -144,8 +144,8 @@ feeds.  (You can see the feed subscribe links at the bottom of the page.)</p>
 <p>It also includes an audio tag so people visiting the blog can play it directly:</p>
 
 <audio preload="none" style="width: 100%;" controls="controls">
-    <source type="audio/ogg" src="/audio/free-software-song.ogg" />
-    <source type="audio/mp3" src="/audio/free-software-song.mp3" />
+    <source type="audio/ogg" src="https://andybalaam.github.io/Jekyll-Podcast-Feed//audio/free-software-song.ogg" />
+    <source type="audio/mp3" src="https://andybalaam.github.io/Jekyll-Podcast-Feed//audio/free-software-song.mp3" />
     <a href=""></a>
 </audio>
 
@@ -176,8 +176,8 @@ feeds.  (You can see the feed subscribe links at the bottom of the page.)</p>
 <p>It also includes an audio tag so people visiting the blog can play it directly:</p>
 
 <audio preload="none" style="width: 100%;" controls="controls">
-    <source type="audio/ogg" src="/audio/free-software-song.ogg" />
-    <source type="audio/mp3" src="/audio/free-software-song.mp3" />
+    <source type="audio/ogg" src="https://andybalaam.github.io/Jekyll-Podcast-Feed//audio/free-software-song.ogg" />
+    <source type="audio/mp3" src="https://andybalaam.github.io/Jekyll-Podcast-Feed//audio/free-software-song.mp3" />
     <a href=""></a>
 </audio>
 
@@ -196,7 +196,7 @@ on the type of feed (ogg or mp3).</p>
 podcast metadata.</p>
 ]]></itunes:summary>
     <itunes:author>Author Name</itunes:author>
-    <itunes:image href="/images/mypodcast.jpg" />
+    <itunes:image href="http://localhost:4000/images/mypodcast.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:duration>01:48"</itunes:duration>
   </item>
