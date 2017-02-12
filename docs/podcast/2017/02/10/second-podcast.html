@@ -10,7 +10,7 @@
   <meta name="description" content="This post is in the podcast category so it will be included in your podcast RSS feeds. (You can see the feed subscribe links at the bottom of the page.)">
 
   <link rel="stylesheet" href="/Jekyll-Podcast-Feed/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/Jekyll-Podcast-Feed/podcast/2017/02/10/second-podcast.html">
+  <link rel="canonical" href="/Jekyll-Podcast-Feed/podcast/2017/02/10/second-podcast.html">
   <link rel="alternate" type="application/rss+xml" title="Example podcast site" href="/Jekyll-Podcast-Feed/feed.xml">
   
   
@@ -35,8 +35,6 @@
       </span>
 
       <div class="trigger">
-        
-          
         
           
         
@@ -82,16 +80,14 @@ feeds.  (You can see the feed subscribe links at the bottom of the page.)</p>
 <p>Your podcast posts must contain metadata like this:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>podcast_link: /audio/my-first-podcast
-podcast_duration: "32:04"
-podcast_length: {"ogg": 29870091, "mp3": 30785454}
 </code></pre>
 </div>
 
 <p>Notice that there is no file extension on the link - it will be added based
 on the type of feed (ogg or mp3).</p>
 
-<p>Put your audio files inside the <code class="highlighter-rouge">audio/</code> directory and add their details to the
-podcast metadata.</p>
+<p>Put your audio files inside the <code class="highlighter-rouge">audio/</code> directory and add the link to the blog
+post for that podcast.</p>
 
   </div>
 

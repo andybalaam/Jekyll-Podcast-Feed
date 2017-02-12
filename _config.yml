@@ -7,6 +7,10 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - audioinfo
+exclude:
+  - Gemfile
+  - Gemfile.lock
 podcast_url: "https://andybalaam.github.io/Jekyll-Podcast-Feed/"
 podcast_album_art: /images/mypodcast.jpg
 podcast_title: My Example Podcast

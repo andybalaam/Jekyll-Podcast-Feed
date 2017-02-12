@@ -31,8 +31,6 @@ need some extra config at the top too:
 
     categories: podcast
     podcast_link: http://traffic.libsyn.com/podcast/filename.mp3
-    podcast_duration: "14:02"  # minutes:seconds
-    podcast_length: 13654375   # File size in bytes
 
 If you include this code in a post:
 
@@ -51,11 +49,13 @@ to specify the correct file extension.
 
 ## Testing locally
 
-If you have Jekyll set up as usual, this should work:
+Type these commands:
 
+    sudo gem install jekyll bundler ruby-audioinfo
     git clone git@github.com:andybalaam/Jekyll-Podcast-Feed.git
     cd Jekyll-Podcast-Feed
-    jekyll serve
+    bundle install
+    bundle exec jekyll serve
 
 Now you should be able to see the example site at
 http://127.0.0.1:4000/Jekyll-Podcast-Feed/ and the example podcast feeds at

@@ -3,6 +3,8 @@
 This is an example of how to make podcast RSS feeds with Jekyll, including the
 information needed to submit it to iTunes.
 
+The example site is live at https://andybalaam.github.io/Jekyll-Podcast-Feed/
+
 ## Global config
 
 As can be seen in [_config.yml](_config.yml), you need some extra information
@@ -29,9 +31,6 @@ need some extra config at the top too:
 
     categories: podcast
     podcast_link: http://traffic.libsyn.com/podcast/filename.mp3
-    podcast_file_size: 13.7 MB
-    podcast_duration: "14:02"
-    podcast_length: 13654375
 
 If you include this code in a post:
 
@@ -50,11 +49,13 @@ to specify the correct file extension.
 
 ## Testing locally
 
-If you have Jekyll set up as usual, this should work:
+Type these commands:
 
+    sudo gem install jekyll bundler ruby-audioinfo
     git clone git@github.com:andybalaam/Jekyll-Podcast-Feed.git
     cd Jekyll-Podcast-Feed
-    jekyll serve
+    bundle install
+    bundle exec jekyll serve
 
 Now you should be able to see the example site at
 http://127.0.0.1:4000/Jekyll-Podcast-Feed/ and the example podcast feeds at
@@ -63,8 +64,8 @@ http://127.0.0.1:4000/Jekyll-Podcast-Feed/podcast-mp3.xml
 
 ## podcast_guid
 
-You can also provide `podcast_guid` for a post to preserve permalinks from a
-previous site:
+You can also provide `podcast_guid` for in a post's YAML header to preserve
+permalinks from a previous site:
 
     podcast_guid: ?p=866
 

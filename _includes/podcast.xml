@@ -59,13 +59,13 @@
         <content:encoded>
             <![CDATA[{{ ep.content | expand_urls: site.podcast_url | cdata_escape }}]]>
         </content:encoded>
-        <enclosure url="{{ site.podcast_url }}{{ ep.podcast_link }}.{{ include.ext }}" length="{{ ep.podcast_length[include.ext] }}" type="audio/{% if (include.ext == "mp3") %}mpeg{% else %}{{include.ext}}{% endif %}" />
+        <enclosure url="{{ site.podcast_url }}{{ ep.podcast_link }}.{{ include.ext }}" length="{% filesize %}.{{ep.podcast_link}}.{{include.ext}}{% endfilesize %}" type="audio/{% if (include.ext == "mp3") %}mpeg{% else %}{{include.ext}}{% endif %}" />
         <itunes:subtitle><![CDATA[{{ ep.excerpt | strip_html | truncatewords: 50 | expand_urls: site.podcast_url | cdata_escape }}]]></itunes:subtitle>
         <itunes:summary><![CDATA[{{ ep.content | expand_urls: site.podcast_url | cdata_escape }}]]></itunes:summary>
         <itunes:author>{{ site.podcast_author }}</itunes:author>
         <itunes:image href="{{ site.podcast_url }}{{ site.podcast_album_art }}" />
         <itunes:explicit>{{ site.podcast_explicit }}</itunes:explicit>
-        <itunes:duration>{{ ep.podcast_duration }}</itunes:duration>
+        <itunes:duration>{% audioduration %}.{{ep.podcast_link}}.{{include.ext}}{% endaudioduration %}</itunes:duration>
     </item>
   {% endfor %}
 </channel>

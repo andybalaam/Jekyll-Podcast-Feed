@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/Jekyll-Podcast-Feed/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/Jekyll-Podcast-Feed/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Jekyll-Podcast-Feed/" rel="alternate" type="text/html" /><updated>2017-02-10T03:38:10+00:00</updated><id>http://localhost:4000/Jekyll-Podcast-Feed//</id><title type="html">Example podcast site</title><subtitle>This is an example of a site with podcast feeds</subtitle><entry><title type="html">Second Podcast</title><link href="http://localhost:4000/Jekyll-Podcast-Feed/podcast/2017/02/10/second-podcast.html" rel="alternate" type="text/html" title="Second Podcast" /><published>2017-02-10T02:07:00+00:00</published><updated>2017-02-10T02:07:00+00:00</updated><id>http://localhost:4000/Jekyll-Podcast-Feed/podcast/2017/02/10/second-podcast</id><content type="html" xml:base="http://localhost:4000/Jekyll-Podcast-Feed/podcast/2017/02/10/second-podcast.html">&lt;p&gt;This post is in the podcast category so it will be included in your podcast RSS
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/Jekyll-Podcast-Feed/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/Jekyll-Podcast-Feed/feed.xml" rel="self" type="application/atom+xml" /><link href="/Jekyll-Podcast-Feed/" rel="alternate" type="text/html" /><updated>2017-02-12T07:18:03+00:00</updated><id>/Jekyll-Podcast-Feed//</id><title type="html">Example podcast site</title><subtitle>This is an example of a site with podcast feeds</subtitle><entry><title type="html">Second Podcast</title><link href="/Jekyll-Podcast-Feed/podcast/2017/02/10/second-podcast.html" rel="alternate" type="text/html" title="Second Podcast" /><published>2017-02-10T02:07:00+00:00</published><updated>2017-02-10T02:07:00+00:00</updated><id>/Jekyll-Podcast-Feed/podcast/2017/02/10/second-podcast</id><content type="html" xml:base="/Jekyll-Podcast-Feed/podcast/2017/02/10/second-podcast.html">&lt;p&gt;This post is in the podcast category so it will be included in your podcast RSS
 feeds.  (You can see the feed subscribe links at the bottom of the page.)&lt;/p&gt;
 
 &lt;p&gt;It also includes an audio tag so people visiting the blog can play it directly:&lt;/p&gt;
@@ -12,19 +12,17 @@ feeds.  (You can see the feed subscribe links at the bottom of the page.)&lt;/p&
 &lt;p&gt;Your podcast posts must contain metadata like this:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;podcast_link: /audio/my-first-podcast
-podcast_duration: &quot;32:04&quot;
-podcast_length: {&quot;ogg&quot;: 29870091, &quot;mp3&quot;: 30785454}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Notice that there is no file extension on the link - it will be added based
 on the type of feed (ogg or mp3).&lt;/p&gt;
 
-&lt;p&gt;Put your audio files inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio/&lt;/code&gt; directory and add their details to the
-podcast metadata.&lt;/p&gt;</content><summary type="html">This post is in the podcast category so it will be included in your podcast RSS
-feeds.  (You can see the feed subscribe links at the bottom of the page.)</summary></entry><entry><title type="html">Another post</title><link href="http://localhost:4000/Jekyll-Podcast-Feed/blog/2017/02/09/another-post.html" rel="alternate" type="text/html" title="Another post" /><published>2017-02-09T02:07:00+00:00</published><updated>2017-02-09T02:07:00+00:00</updated><id>http://localhost:4000/Jekyll-Podcast-Feed/blog/2017/02/09/another-post</id><content type="html" xml:base="http://localhost:4000/Jekyll-Podcast-Feed/blog/2017/02/09/another-post.html">&lt;p&gt;This post is not in the podcast category so it will not be included in your
+&lt;p&gt;Put your audio files inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio/&lt;/code&gt; directory and add the link to the blog
+post for that podcast.&lt;/p&gt;</content><summary type="html">This post is in the podcast category so it will be included in your podcast RSS
+feeds.  (You can see the feed subscribe links at the bottom of the page.)</summary></entry><entry><title type="html">Another post</title><link href="/Jekyll-Podcast-Feed/blog/2017/02/09/another-post.html" rel="alternate" type="text/html" title="Another post" /><published>2017-02-09T02:07:00+00:00</published><updated>2017-02-09T02:07:00+00:00</updated><id>/Jekyll-Podcast-Feed/blog/2017/02/09/another-post</id><content type="html" xml:base="/Jekyll-Podcast-Feed/blog/2017/02/09/another-post.html">&lt;p&gt;This post is not in the podcast category so it will not be included in your
 podcast RSS feeds.&lt;/p&gt;</content><summary type="html">This post is not in the podcast category so it will not be included in your
-podcast RSS feeds.</summary></entry><entry><title type="html">My First Podcast</title><link href="http://localhost:4000/Jekyll-Podcast-Feed/podcast/2017/02/08/my-first-podcast.html" rel="alternate" type="text/html" title="My First Podcast" /><published>2017-02-08T02:07:00+00:00</published><updated>2017-02-08T02:07:00+00:00</updated><id>http://localhost:4000/Jekyll-Podcast-Feed/podcast/2017/02/08/my-first-podcast</id><content type="html" xml:base="http://localhost:4000/Jekyll-Podcast-Feed/podcast/2017/02/08/my-first-podcast.html">&lt;p&gt;This post is in the podcast category so it will be included in your podcast RSS
+podcast RSS feeds.</summary></entry><entry><title type="html">My First Podcast</title><link href="/Jekyll-Podcast-Feed/podcast/2017/02/08/my-first-podcast.html" rel="alternate" type="text/html" title="My First Podcast" /><published>2017-02-08T02:07:00+00:00</published><updated>2017-02-08T02:07:00+00:00</updated><id>/Jekyll-Podcast-Feed/podcast/2017/02/08/my-first-podcast</id><content type="html" xml:base="/Jekyll-Podcast-Feed/podcast/2017/02/08/my-first-podcast.html">&lt;p&gt;This post is in the podcast category so it will be included in your podcast RSS
 feeds.  (You can see the feed subscribe links at the bottom of the page.)&lt;/p&gt;
 
 &lt;p&gt;It also includes an audio tag so people visiting the blog can play it directly:&lt;/p&gt;
@@ -38,14 +36,12 @@ feeds.  (You can see the feed subscribe links at the bottom of the page.)&lt;/p&
 &lt;p&gt;Your podcast posts must contain metadata like this:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;podcast_link: /audio/my-first-podcast
-podcast_duration: &quot;32:04&quot;
-podcast_length: {&quot;ogg&quot;: 29870091, &quot;mp3&quot;: 30785454}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Notice that there is no file extension on the link - it will be added based
 on the type of feed (ogg or mp3).&lt;/p&gt;
 
-&lt;p&gt;Put your audio files inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio/&lt;/code&gt; directory and add their details to the
-podcast metadata.&lt;/p&gt;</content><summary type="html">This post is in the podcast category so it will be included in your podcast RSS
+&lt;p&gt;Put your audio files inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio/&lt;/code&gt; directory and add the link to the blog
+post for that podcast.&lt;/p&gt;</content><summary type="html">This post is in the podcast category so it will be included in your podcast RSS
 feeds.  (You can see the feed subscribe links at the bottom of the page.)</summary></entry></feed>
